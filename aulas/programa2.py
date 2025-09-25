@@ -1,4 +1,6 @@
-#Crie um programa para um supermercado que guarda dados importantes.
+#Programas da aula 18/09/2025
+
+#Desafio: Crie um programa para um supermercado que guarda dados importantes.
 
 valorArroz = 4.50
 valorFeijao = 5.0
