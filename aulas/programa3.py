@@ -22,6 +22,7 @@ else:
 #Verificação de idades:
 
 """
+
 Morreu > 105
 Quase lá [95, 104]
 Anciã [80, 94]
@@ -34,6 +35,7 @@ Adolescentes [13, 17]
 Criança [5, 12]
 Bebê [0, 4]
 Encomendando < 0
+
 """
 
 idade = int(input("Digite a idade para obter a descrição: "))
@@ -63,7 +65,7 @@ elif idade > 0 and idade < 4:
 else:
     print("Encomendando")
 
-#Exercícios de pontos extra:
+#Exercícios de pontos extra: 
 
 #Exercício 2:
 
