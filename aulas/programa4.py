@@ -1,4 +1,4 @@
-#Exercícios da aula: 02/10/2025
+#Programas da aula: 02/10/2025
 
 #Qual o número maior:
 
