@@ -1,6 +1,6 @@
 # Programa da aula 30/10/2025
 
-# Estrutura de dados:
+# Estrutura de dados - Lista (Array):
 
 # Criação de lista a partir de uma string:
 
@@ -76,7 +76,6 @@ print(*numeros, sep="\n") # Lista todos os números por linha
 ######################### Exercícios #########################
 
 # Exercício 1:
-
 # Crie um programa que lê 10 numeros e imprima em orde crescente e decrescente, utilizando listas:
 
 minhaLista = []
@@ -91,3 +90,29 @@ print(*minhaLista, sep="\n")
 minhaLista.sort(reverse=True)
 
 print(*minhaLista, sep="\n")
+
+# Exercício 2:
+# Leia cinco números e mostre o do meio:
+
+numericos = []
+
+for i in range(5):
+    numero = int(input("Digite o número: "))
+    numericos.append(numero)
+
+numericos.sort(reverse=True)
+
+print(*numericos, sep="\n")
+
+elementoDoMeio = int((len(numericos) - 1) / 2) # len: Obtém o tamanho de uma lista
+
+print(f"O elemento do meio é: {numericos[elementoDoMeio]}")
+
+# Exercício 3:
+# Insira um Abacaxi entre a Goiaba e a Banana:
+
+frutas = ["Goiaba", "Banana", "Laranja", "Manga"]
+
+frutas.insert(1, "Abacaxi") # insert: Insere um elemento em uma posição específica
+
+print(frutas)

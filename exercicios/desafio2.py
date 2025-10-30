@@ -1,17 +1,14 @@
-"""
-# Aula 30/10/2025
-# Crie um programa que lê 10 numeros e imprima em orde crescente e decrescente, utilizando listas:
+numericos = []
 
-minhaLista = []
+for i in range(5):
+    numero = int(input("Digite o número: "))
+    numericos.append(numero)
 
-for num in range(10):
-    minhaLista.append(input("Digite um nome: "))
+numericos.sort(reverse=True)
 
-minhaLista.sort()
+print(*numericos, sep="\n")
 
-print(*minhaLista, sep="\n")
+tamanhoLista = len(numericos)
+elementoDoMeio = int((tamanhoLista - 1) / 2)
 
-minhaLista.sort(reverse=True)
-
-print(*minhaLista, sep="\n")
-"""
+print(f"O elemento do meio é {numericos[elementoDoMeio]}")
