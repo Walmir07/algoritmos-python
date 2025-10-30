@@ -1,3 +1,4 @@
+"""
 # Desafio de pontos do dia 16/10/2025:
 
 while True:
@@ -24,3 +25,4 @@ while mulheres < 5:
         mulheres += 1
 
 print(f"Entraram {mulheres} mulheres")
+"""
