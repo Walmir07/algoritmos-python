@@ -1,28 +1,33 @@
-"""
-# Desafio de pontos do dia 16/10/2025:
+#Email: alvaro.magnum@ifpb.edu.br
 
-while True:
-    sexo = input("Digite o sexo: M, F ou O: ")
-    idade = int(input("Digite a sua idade: "))
+# Crie um programa em Python que é um cadastro de pessoas: - pedir um numero ao usuario
 
-    if sexo == "F" and idade >= 18:
-        mulheres += 1
 
-    if mulheres == 5:
-        break
+pessoas = int(input("Digite o número de pessoas: "))
 
-print(f"Entraram {mulheres} mulheres")
+listaNomes = []
+listaIdades = []
+listaCPF = []
 
-# Correção com o mesmo resultado:
 
-mulheres = 0
+for i in range(pessoas):
+    nome = input("Digite o nome da pessoa: ")
+    idade = int(input("Digite a idade da pessoa: "))
+    cpf = int(input("Digite o CPF da pessoa: "))
 
-while mulheres < 5:
-    sexo = input("Digite o sexo: M, F ou O: ")
-    idade = int(input("Digite a sua idade: "))
+    listaNomes.append(nome)
+    listaIdades.append(idade)
+    listaCPF.append(cpf)
 
-    if sexo == "F" and idade >= 18:
-        mulheres += 1
+pesquisa = input("Pesquise a pessoa pelo nome:")
 
-print(f"Entraram {mulheres} mulheres")
-"""
+for nome in listaNomes:
+    if pesquisa == listaNomes[listaNomes.index(nome)]:
+        print(f"A nome da pessoa é: {listaNomes[listaNomes.index(nome)]}")
+        print(f"A idade da pessoa é: {listaIdades[listaNomes.index(nome)]}")
+        print(f"O CPF da pessoa é: {listaCPF[listaNomes.index(nome)]}")
+
+
+
+
+
