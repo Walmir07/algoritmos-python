@@ -1,7 +1,9 @@
 #Email: alvaro.magnum@ifpb.edu.br
 
-# Crie um programa em Python que é um cadastro de pessoas: - pedir um numero ao usuario
+# Crie um programa em Python que é um cadastro de pessoas: - pedir um numero ao usuario.
 
+# Valendo 15 pontos.
+# Desafio da festa de mulheres +15 pontos.
 
 pessoas = int(input("Digite o número de pessoas: "))
 

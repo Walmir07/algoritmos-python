@@ -41,6 +41,8 @@ print("A média ponderada dos salários é: {:.2f}".format(mediaPonderada))
 
 #Exercicio
 
+# Valendo ponto: 10
+
 n1 = float(input())
 n2 = float(input())
 n3 = float(input())

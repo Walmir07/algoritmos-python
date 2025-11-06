@@ -65,7 +65,9 @@ elif idade > 0 and idade < 4:
 else:
     print("Encomendando")
 
-#Exercícios de pontos extra: 
+#Exercícios de pontos extra:
+
+# Valendo 10 pontos:
 
 #Exercício 2:
 
