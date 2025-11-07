@@ -17,8 +17,6 @@ for i in range(2):
     print(f"NOTA 2 = {aluno['nota2']}")
     print(f"NOTA 3 = {aluno['nota3']}")
     print(f"NOTA 4 = {aluno['nota4']}")
-
-print(f"\nLista de alunos cadastrados: \n") 
 print(alunos)
 
 for j in range(2):
