@@ -1,3 +1,5 @@
+# BRINDE FACE 2015
+
 participantes = int(input())
 lista = []
 brindes = 0
