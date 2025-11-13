@@ -1,7 +1,7 @@
 #Programas da aula 18/09/2025
 
 nome = "Walmir Lima"
-idade = 18;
+idade = 18
 telefone = "99946-9429"
 cep = "58398-000"
 isEstudante = True
