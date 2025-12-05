@@ -45,4 +45,4 @@ expoente = int(input("Digite o expoênte: "))
 
 print(f"A potência de {numero} por {expoente} é: {potencia(numero, expoente)}")
 
-# 4°) Implemente uma função recursiva que calcule a somaS(n), onde o resultado é: Resposta = 1/1+1/2+1/3+1/4+...+1/n. Crie um programa que use essa função.
+# 4°) Implemente uma função recursiva que calcule a somaS(n) onde o resultado é: Resposta = 1/1+1/2+1/3+1/4+...+1/n. Crie um programa que use essa função.
