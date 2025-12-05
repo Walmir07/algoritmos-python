@@ -1,13 +1,11 @@
-def potencia(a, b):
+def restoDivisaoSucessiva(a, b):
 
-    if b == 0:
-        return 1
+    if a < b:
+        return 0
+   
+    return 1 + restoDivisaoSucessiva( a - b, b)
 
-    resultado = a * potencia(a, b - 1)
+dividendo = int(input("Digite o dividendo: "))
+divisor = int(input("Digite o divisor: "))
 
-    return resultado
-
-numero = int(input("Digite o número: "))
-expoente = int(input("Digite o expoênte: "))
-
-print(f"A potência de {numero} por {expoente} é: {potencia(numero, expoente)}")
+print(f"A divisão por subtrações de {dividendo} por {divisor} é: {restoDivisaoSucessiva(dividendo, divisor)}")
