@@ -47,24 +47,16 @@ print(f"A potência de {numero} por {expoente} é: {potencia(numero, expoente)}"
 
 # 4°) Implemente uma função recursiva que calcule a somaS(n) onde o resultado é: Resposta = 1/1+1/2+1/3+1/4+...+1/n. Crie um programa que use essa função.
 
-"""
-
-Errada ainda...
-
 def somaS(n):
 
-    if n == 0:
-        return 0
+    if n == 1:
+        return 1
 
-    soma = 1 / somaS(n - 1)
-
-    if soma == n:
-        return soma
+    return somaS(n - 1) + 1 / n
 
 numero = int(input("Digite o número: "))
 
-print(f"A soma de {numero} é: {somaS(numero)}")
-"""
+print(f"A somaS de {numero} é: {somaS(numero)}")
 
 # 5°) Implemente uma função recursiva que receba uma lista de letras e retorne um string (concatenando as letras). Crie um programa que use essa função.
 
@@ -94,3 +86,15 @@ divisor = int(input("Digite o divisor: "))
 print(f"A divisão por subtrações de {dividendo} por {divisor} é: {subSucessivas(dividendo, divisor)}")
 
 # 7°) Implemente a mesma função da questão acima mas que retorne o resto da divisão. Crie um programa que use essa função.
+
+def restoSubSucessivas(a, b):
+
+    if a < b:
+        return a
+   
+    return restoSubSucessivas(a - b, b)
+
+dividendo = int(input("Digite o dividendo: "))
+divisor = int(input("Digite o divisor: "))
+
+print(f"O resto da divisão por subtrações de {dividendo} por {divisor} é: {restoSubSucessivas(dividendo, divisor)}")
